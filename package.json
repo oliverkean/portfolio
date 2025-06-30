@@ -2,7 +2,7 @@
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://oliverkeanpalgue.github.io/portfolio/",
+  "homepage": "https://oliverkean.github.io/portfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",
