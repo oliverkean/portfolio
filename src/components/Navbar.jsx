@@ -8,26 +8,25 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
-  const handleScroll = () => {
-    const sectionOffsets = LINKS.map(({ link, name }) => {
-      if (!link || link === '#') return { name, offset: Infinity };
-      const el = document.querySelector(link);
-      return el
-        ? { name, offset: el.getBoundingClientRect().top }
-        : { name, offset: Infinity };
-    });
+    const updateActiveLinkFromHash = () => {
+      const currentHash = window.location.hash || "#";
+      const found = LINKS.find((item) => item.link === currentHash);
+      if (found) {
+        setActiveLink(found.name);
+      }
+    };
 
-    const current = sectionOffsets.find(
-      ({ offset }) => offset > 0 && offset < window.innerHeight / 2
-    );
+    updateActiveLinkFromHash(); 
+    window.addEventListener("hashchange", updateActiveLinkFromHash);
+    return () => window.removeEventListener("hashchange", updateActiveLinkFromHash);
+  }, []);
 
-    if (current) setActiveLink(current.name);
+  // Handle click to update hash and active link
+  const handleNavClick = (name, link) => {
+    window.location.hash = link; 
+    setActiveLink(name);       
+    setMenuOpen(false);         
   };
-
-  window.addEventListener("scroll", handleScroll);
-  return () => window.removeEventListener("scroll", handleScroll);
-}, []);
-
 
   return (
     <nav className="z-50 w-full fixed bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-700 shadow-sm">
@@ -40,7 +39,7 @@ export default function Navbar() {
                 name={name}
                 link={link}
                 isActive={activeLink === name}
-                onClick={() => setActiveLink(name)}
+                onClick={() => handleNavClick(name, link)}
               />
             </li>
           ))}
@@ -65,10 +64,7 @@ export default function Navbar() {
                 name={name}
                 link={link}
                 isActive={activeLink === name}
-                onClick={() => {
-                  setActiveLink(name);
-                  setMenuOpen(false);
-                }}
+                onClick={() => handleNavClick(name, link)}
               />
             </li>
           ))}
