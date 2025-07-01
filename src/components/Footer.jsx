@@ -20,12 +20,15 @@ function Footer() {
               <span className="hidden sm:inline">{name}</span>
             </a>
           ))}
-          <a
+          
+          <div> 
+            <a
             href="mailto:oliverpalgue@example.com"
-            className="hover:text-purple-400 transition"
+            className="ml-2 hover:text-purple-400 transition"
           >
-            Contact
+             oliverpalgue@gmail.com
           </a>
+          </div>
         </div>
       </div>
     </footer>
