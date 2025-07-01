@@ -2,6 +2,9 @@ import EXPERIENCE from "../../constants/experience";
 export default function Experience() {
   return (
     <section id="experiences" className="w-full p-18 shadow-md bg-gray-50">
+      <div className="text-center mb-10 mt-10">
+        <h1 className="text-2xl font-bold text-purple-900">My Experiences</h1>
+      </div>
       <div className="flex justify-between gap-2">
         <ol className="relative border-s border-gray-600">
           {EXPERIENCE.map(
