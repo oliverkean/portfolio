@@ -8,8 +8,6 @@ export default function Home() {
       <div className="flex justify-between gap-2 max-w-7xl mx-auto">
           <Introduction name={CONSTANTS.NAME} role={CONSTANTS.FULL_STACK}/>
           <Description name={CONSTANTS.NAME}/>
-
-          {/* skills */}
       </div>
     </section>
   );
