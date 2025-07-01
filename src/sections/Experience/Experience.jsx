@@ -1,7 +1,7 @@
 import EXPERIENCE from "../../constants/experience";
 export default function Experience() {
   return (
-    <section id="experiences" className="w-full p-18 shadow-md bg-gray-50">
+    <section id="experiences" className="w-full h-full p-18 shadow-md bg-gray-50">
       <div className="text-center mb-10 mt-10">
         <h1 className="text-2xl font-bold text-purple-900">My Experiences</h1>
       </div>
@@ -21,7 +21,7 @@ export default function Experience() {
                       {address}
                     </span>
                   </div>
-                  <p className="mb-1 text-gray-700 text-lg font-semibold">
+                  <p className="mb-1 text-gray-700 text-md font-semibold">
                     {role}
                   </p>
                   <p className="mb-4 text-base text-md font-normal text-gray-600">
