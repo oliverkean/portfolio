@@ -15,7 +15,9 @@ export default function Experience() {
                 <div className="border border-gray-300 p-4 rounded-md bg-white shadow-sm">
                   <p className="text-gray-500 text-sm mb-1">{date}</p>
                   <div className="flex justify-between flex-wrap">
-                    <h3 className="text-lg font-bold text-purple-800">{company}</h3>
+                    <h3 className="text-lg font-bold text-purple-800">
+                      <span><FaLocationDot /></span>
+                      {company}</h3>
                     <span className="text-sm text-gray-500 font-normal">{address}</span>
                   </div>
                   <p className="mb-1 text-gray-700 text-md font-semibold">{role}</p>
