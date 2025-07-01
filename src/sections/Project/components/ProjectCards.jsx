@@ -2,7 +2,7 @@ export default function ProjectCard({ index, name, image, description }) {
   return (
     <li
       key={index}
-      className="bg-white rounded-xl shadow-md border border-gray-200 flex flex-col max-w-sm mx-auto"
+      className="bg-white rounded-xl shadow-md border border-gray-200 flex flex-col"
     >
       <img
         src={image}
