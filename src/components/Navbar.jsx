@@ -8,24 +8,26 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
-      const sectionOffsets = LINKS.map(({ link, name }) => {
-        const el = document.querySelector(link);
-        return el
-          ? { name, offset: el.getBoundingClientRect().top }
-          : { name, offset: Infinity };
-      });
+  const handleScroll = () => {
+    const sectionOffsets = LINKS.map(({ link, name }) => {
+      if (!link || link === '#') return { name, offset: Infinity };
+      const el = document.querySelector(link);
+      return el
+        ? { name, offset: el.getBoundingClientRect().top }
+        : { name, offset: Infinity };
+    });
 
-      const current = sectionOffsets.find(
-        ({ offset }) => offset > 0 && offset < window.innerHeight / 2
-      );
+    const current = sectionOffsets.find(
+      ({ offset }) => offset > 0 && offset < window.innerHeight / 2
+    );
 
-      if (current) setActiveLink(current.name);
-    };
+    if (current) setActiveLink(current.name);
+  };
 
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  window.addEventListener("scroll", handleScroll);
+  return () => window.removeEventListener("scroll", handleScroll);
+}, []);
+
 
   return (
     <nav className="z-50 w-full fixed bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-700 shadow-sm">
