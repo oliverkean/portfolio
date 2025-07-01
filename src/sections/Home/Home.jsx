@@ -4,12 +4,11 @@ import Description from "../../sections/Home/components/Description";
 
 export default function Home() {
   return (
-    <section id="" className="w-full p-18 mt-20 flex items-center">
-      <div className="flex justify-between gap-2 max-w-7xl mx-auto">
-          <Introduction name={CONSTANTS.NAME} role={CONSTANTS.FULL_STACK}/>
-          <Description name={CONSTANTS.NAME}/>
+    <section id="" className="w-full px-6 py-16 mt-20 flex items-center bg-white dark:bg-gray-900">
+      <div className="flex flex-col md:flex-row justify-between items-center gap-8 max-w-7xl mx-auto w-full">
+        <Introduction name={CONSTANTS.NAME} role={CONSTANTS.FULL_STACK} />
+        <Description name={CONSTANTS.NAME} />
       </div>
     </section>
   );
 }
-

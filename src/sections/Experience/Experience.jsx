@@ -20,8 +20,7 @@ export default function Experience() {
                   <span className="absolute flex items-center justify-center w-6 h-6 bg-purple-800 rounded-full -start-3 ring-8 ring-white"></span>
                   <div className="border border-gray-300 p-4 rounded-md bg-white shadow-sm">
                     <p className="text-gray-500 text-sm mb-1 flex items-center gap-1.5">
-                      <span><IoCalendarClear />
-</span>
+                      <span><IoCalendarClear /></span>
                       {date}
                     </p>
                     <div className="flex justify-between flex-wrap">
