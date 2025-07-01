@@ -1,4 +1,3 @@
-// components/DarkModeToggleButton.jsx
 import { useEffect, useState } from "react";
 import { FiSun, FiMoon } from "react-icons/fi";
 
