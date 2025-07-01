@@ -10,7 +10,7 @@ export const PROJECTS = [
     description:
       'A web application to help users track the status of traffic within the roads at Baguio City. Traffic is one of the issues within the city, this web application will be used to help users decide alternative routes to reach their destinations. This will be managed by admins by updating the traffic conditions within each route in real time.',
     technologies: ['Laravel', 'PHP', 'MySQL', 'JavaScript', 'Vue.js', 'Tailwind CSS', 'Mapbox', 'Laravel Reverb'],
-    sourceCode: 'https://github.com/oliverkean/come-and-travel'
+    sourceCode: 'https://github.com/oliverkean/traffic-tracking'
   },
   {
     name: 'Swapii: Bartering Web Application',
@@ -18,7 +18,7 @@ export const PROJECTS = [
     description:
       'A web-based platform developed using the VILT stack (Vue.js, Inertia.js, Laravel, Tailwind CSS) that enables University of Baguio students and staff to barter items to reduce waste and help students financially. Features include real-time chat, trade management, user authentication, AI image validation, review/rating system, and admin analytics for monitoring activity and managing user.',
     technologies: ['Vue.js', 'Laravel', 'PHP', 'Inertia.js', 'Tailwind CSS', 'MySQL', 'Pusher', 'Laravel Breeze'],
-    sourceCode: 'https://github.com/oliverkean/come-and-travel'
+    sourceCode: 'https://github.com/oliverkean/barter'
   },
   {
     name: 'Inventory System for Poultry Business',
@@ -26,7 +26,7 @@ export const PROJECTS = [
     description:
       'A web-based system built with Laravel to manage poultry inventory, suppliers, and customer orders. It offers real-time updates, user authentication, and report generation about business operations and improve accuracy.',
     technologies: ['Laravel', 'PHP', 'MySQL', 'Livewire', 'Bootstrap', 'Laravel Breeze'],
-    sourceCode: 'https://github.com/oliverkean/come-and-travel'
+    sourceCode: 'https://github.com/oliverkean/ispb'
   },
   {
     name: 'Come and Travel: Travel Website for Baguio City',
