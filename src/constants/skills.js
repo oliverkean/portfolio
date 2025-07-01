@@ -27,7 +27,7 @@ const SKILLS = {
     { name: "Git", icon: FaGitAlt, color: "text-orange-500" },
     { name: "GitHub", icon: FaGithub, color: "text-gray-800" },
     { name: "Node.js", icon: SiNodedotjs, color: "text-green-700" },
-    { name: "Composer", icon: SiComposer, color: "text-gray-700" },
+    { name: "Composer", icon: SiComposer, color: "text-gray-400" },
     { name: "VS Code", icon: VscVscode, color: "text-blue-500" },
     { name: "Figma", icon: SiFigma, color: "text-pink-500" },
     { name: "Vite", icon: SiVite, color: "text-violet-500" },
@@ -36,7 +36,7 @@ const SKILLS = {
     { name: "MySQL", icon: SiMysql, color: "text-teal-600" },
     { name: "WebSockets (Laravel Reverb)", icon: FaLaravel, color: "text-red-500" },
     { name: "WordPress", icon: FaWordpress, color: "text-blue-800" },
-    { name: "Documentation", icon: IoIosDocument, color: "text-gray-800" },
+    { name: "Documentation", icon: IoIosDocument, color: "text-gray-400" },
   ]
 };
 

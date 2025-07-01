@@ -4,7 +4,7 @@ import SkillCategory from "./components/SkillCategory";
 
 export default function Skills() {
   return (
-    <section id="skills" className="w-full h-full p-18 shadow-sm bg-gray-50">
+    <section id="skills" className="w-full h-full px-4 py-16 bg-gray-50 dark:bg-gray-900 shadow-sm">
       <div className="max-w-7xl mx-auto">
         <Header title="My Skills" />
         <SkillCategory title="Languages" items={SKILLS.languages} />
