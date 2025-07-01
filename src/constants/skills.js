@@ -25,7 +25,7 @@ const SKILLS = {
   ],
   tools: [
     { name: "Git", icon: FaGitAlt, color: "text-orange-500" },
-    { name: "GitHub", icon: FaGithub, color: "text-gray-800" },
+    { name: "GitHub", icon: FaGithub, color: "text-gray-400" },
     { name: "Node.js", icon: SiNodedotjs, color: "text-green-700" },
     { name: "Composer", icon: SiComposer, color: "text-gray-400" },
     { name: "VS Code", icon: VscVscode, color: "text-blue-500" },
