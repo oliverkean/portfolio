@@ -4,7 +4,7 @@ export default function Experience() {
   return (
     <section id="experiences" className="w-full h-full px-4 py-12 shadow-md bg-gray-50">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-10">
+        <div className="text-center mb-10 mt-15">
           <h1 className="text-2xl font-bold text-purple-900">My Experiences</h1>
         </div>
         <div className="flex justify-between gap-2">
