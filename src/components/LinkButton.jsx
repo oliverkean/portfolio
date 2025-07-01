@@ -1,4 +1,4 @@
-export default function ScrollButton({ name, link }) {
+export default function LinkButton({ name, link }) {
   return (
     <a
       href={link}
