@@ -3,7 +3,7 @@ export const EXPERIENCE = [
         company: 'City Government of Baguio - Smart City Command and Control',
         date: 'April 2025 - June 2025',
         address: 'Convention Center, Baguio City, Benguet',
-        role: 'Full Stack Developer Intern',
+        role: 'Full Stack Developer',
         description: 'Developed a real-time traffic monitoring system with Laravel and Vue.js, using third-party APIs and Laravel Reverb for live updates and a seamless UI. Created technical documentation to support scalability and team collaboration.'
     },
     {
