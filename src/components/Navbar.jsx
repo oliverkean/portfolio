@@ -30,7 +30,7 @@ export default function Navbar() {
 
   return (
     <nav className="z-50 w-full fixed bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-700 shadow-sm">
-      <div className="max-w-7xl mx-auto px-6 py-4 flex justify-center items-center relative">
+      <div className="max-w-7xl mx-auto px-6 py-8 sm:py-6 md:py-4 flex justify-center items-center relative">
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8 items-center">
           {LINKS.map(({ name, link }, index) => (
