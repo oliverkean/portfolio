@@ -6,7 +6,7 @@ export default function Experience() {
   return (
     <section
       id="experiences"
-      className="w-full h-full px-4 py-12 bg-gray-50 dark:bg-gray-900 shadow-md"
+      className="w-full h-full px-4 py-12 pt-20 md:pt-24 bg-gray-50 dark:bg-gray-900 shadow-md"
     >
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-10">

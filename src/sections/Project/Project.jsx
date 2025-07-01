@@ -3,7 +3,7 @@ import ProjectCard from "./components/ProjectCards";
 
 export default function Projects() {
   return (
-    <section id="projects" className="w-full h-full px-4 py-16 bg-gray-50 dark:bg-gray-800 shadow-sm">
+    <section id="projects" className="w-full h-full px-4 py-16 pt-20 md:pt-24 bg-gray-50 dark:bg-gray-800 shadow-sm">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-10">
           <h1 className="text-2xl font-bold text-purple-900 dark:text-purple-400">My Projects</h1>
