@@ -1,7 +1,7 @@
 const LINK = [
     {
         name: 'About',
-        link: ''
+        link: '#'
     },
     {
         name: 'Experiences',
@@ -10,10 +10,6 @@ const LINK = [
     {
         name: 'Projects',
         link: '#projects'
-    },
-    {
-        name: 'Contact',
-        link: '#contact'
     }
 ]
 
