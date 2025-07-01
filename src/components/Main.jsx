@@ -1,4 +1,5 @@
 import Home from '../sections/Home/Home';
+import Skills from '../sections/Skills/Skills'
 import Experience from '../sections/Experience/Experience'
 import Projects from '../sections/Project/Project';
 function Main() {
@@ -8,6 +9,7 @@ function Main() {
           <Home/>
           <Experience />
           <Projects />
+          <Skills />
       </div>
     </>
   );

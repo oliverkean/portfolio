@@ -10,6 +10,10 @@ const LINK = [
     {
         name: 'Projects',
         link: '#projects'
+    },
+    {
+        name: 'Skills',
+        link: '#skills'
     }
 ]
 
