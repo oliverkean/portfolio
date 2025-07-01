@@ -18,7 +18,7 @@ export default function Description({name}){
           </p>
           
           <div className="flex justify-end m-2">
-             <ScrollButton name="View my Projects" link="#project"/>
+             <ScrollButton name="View Resume" link=""/>
           </div>
         </div>
     )
