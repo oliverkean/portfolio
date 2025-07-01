@@ -10,7 +10,7 @@ export default function Projects() {
         </div>
         <div className="flex justify-center">
           <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
-            {PROJECTS.map(({ name, date, description, image, technologies }, index) => (
+            {PROJECTS.map(({ name, date, description, image, technologies, sourceCode}, index) => (
               <ProjectCard
                 key={index}
                 name={name}
@@ -18,6 +18,7 @@ export default function Projects() {
                 image={image}
                 technologies={technologies}
                 description={description}
+                sourceCode={sourceCode}
               />
             ))}
           </ul>
