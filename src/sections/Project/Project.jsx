@@ -10,8 +10,8 @@ export default function Projects() {
       <div className="flex justify-between gap-2">
         <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {PROJECTS.map(
-            ({ name, date, description }, index) => (
-              <ProjectCard name={name} date={date} description={description} index={index} />
+            ({ name, date, description, image }, index) => (
+              <ProjectCard name={name} date={date} image={image} description={description} index={index} />
             )
           )}
         </ul>
