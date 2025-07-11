@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 export const SOCIAL_LINK = [
     {
         name: 'Github',
-        url: 'https://github.com/oliverkeanpalgue',
+        url: 'https://github.com/oliverkean',
         icon: FaGithub
     },
     {
